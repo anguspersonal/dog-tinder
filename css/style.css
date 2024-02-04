@@ -1,8 +1,18 @@
+
+
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+
+html, body, #title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 @keyframes gradient-animation {
   0% {
@@ -25,4 +35,47 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+
+.testimonial-images {
+  height: 30px;
+}
+
+.container-spaced-between {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+.card-body {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-header {
+  background-color: 21252908;
+  color: 212529px;
+}
+
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.text-bg-primary {
+  background-color: black;
+}
+
+.btn-outline-primary {
+  border-color: black;
+  color: black;
+}
+#top-pricing-option-border { 
+  border-color: black;
+}
+#top-pricing-option-hearder {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
